@@ -7,8 +7,8 @@ The cache can be indexed by a generic type T, and any element can be stored asso
 The cache can be configured with:
 
 <ul>
-  <li><strong>MaxItems:<strong> Maximum cache items allowed in the cache. </li>
-  <li><strong>CachePolicy:<strong> Policiy used to evict elements from the cache. At this moment, only Least Recently Used policy is available to use</li>
+  <li><strong>MaxItems:</strong>strong> Maximum cache items allowed in the cache. </li>
+  <li><strong>CachePolicy:</strong>strong> Policiy used to evict elements from the cache. At this moment, only Least Recently Used policy is available to use</li>
 </ul>
 
 ## Least Recently Used policy
