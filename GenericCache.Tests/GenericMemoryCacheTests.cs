@@ -71,7 +71,7 @@ namespace Cache.Tests
         [Theory]
         [InlineData(new int[] {0, 1, 2 }, new string[] { "Item 1", "Item 2", "Item 3" }, 2)]
         public void Write_OneElementMoreThanTheCapacity_ShouldRemoveTheFirstOneWritten
-        
+        (
             int[] keys,
             object[] items,
             int maxItems
